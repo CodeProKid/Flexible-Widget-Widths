@@ -65,7 +65,7 @@ add_filter( 'fww_column_name', 'filter_column_name' );
 
 function filter_column_name( $args ) {
 	
-	$args[] = 'cols';
+	$args = 'cols';
 	return $args;
 
 }
@@ -76,7 +76,7 @@ add_filter( 'fww_total_columns', 'filter_total_columns' );
 
 funtion filter_total_columns( $args ) {
 	
-	$args[] = 16;
+	$args = 16;
 	return $args;
 	
 }
